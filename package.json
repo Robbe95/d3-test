@@ -1,0 +1,37 @@
+{
+  "name": "rename-me",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "lint": "eslint \"**/*.{vue,ts,js}\"",
+    "production": "vite build --mode production",
+    "staging": "vite build --mode staging",
+    "development": "vite build --mode development"
+  },
+  "dependencies": {
+    "@unocss/inspector": "^0.45.18",
+    "@unocss/reset": "^0.45.18",
+    "@vueuse/core": "^9.2.0",
+    "@vueuse/head": "^0.7.10",
+    "axios": "^0.27.2",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.39",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.3",
+    "@types/node": "^18.7.16",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "8.23",
+    "eslint-plugin-promise": "^6.0.1",
+    "typescript": "^4.8.3",
+    "unocss": "^0.45.18",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.13"
+  }
+}
